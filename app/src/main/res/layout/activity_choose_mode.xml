@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen"
+    tools:context=".ChooseModeActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taxi Teleport"
+        android:textSize="35sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/white"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/driverButton"
+        android:onClick="goToDriverSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am a driver"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="180dp"
+        />
+
+    <Button
+        android:id="@+id/passengerButton"
+        android:onClick="goToPassengerSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am a passenger"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        />
+
+</RelativeLayout>

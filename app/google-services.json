@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "701465815618",
+    "firebase_url": "https://tptaxi.firebaseio.com",
+    "project_id": "tptaxi",
+    "storage_bucket": "tptaxi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701465815618:android:5fe7d431b9dce9f06f1bdb",
+        "android_client_info": {
+          "package_name": "com.android.pehominc.tptaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701465815618-bb9gdk4qqumlkocqtds8ijaflilcjabq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.pehominc.tptaxi",
+            "certificate_hash": "22e832e60ae1b6f3b4a448fc43d899d43ecc3cd7"
+          }
+        },
+        {
+          "client_id": "701465815618-j3fd34iqp996jo6ika5qe2ajgtvqn48d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQAs9b1WoQWWXmPEz0iGkajBnlWLl5FCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701465815618-j3fd34iqp996jo6ika5qe2ajgtvqn48d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
